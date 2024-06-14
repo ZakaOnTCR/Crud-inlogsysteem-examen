@@ -1,0 +1,15 @@
+p{
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-muted {
+    color: white;
+}

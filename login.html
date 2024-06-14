@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Login</h2>
+        <form action="php/login.php" method="post">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="wachtwoord">Wachtwoord:</label>
+                <input type="password" class="form-control" id="wachtwoord" name="wachtwoord" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <p> If u dont own an account, click the register button to Create one! </p>
+
+            <a href="register.html" class="btn btn-danger">Register</a>
+        </form>
+    </div>
+</body>
+</html>
