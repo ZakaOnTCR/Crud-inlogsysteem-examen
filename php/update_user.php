@@ -10,7 +10,7 @@ include 'functions.php';
 // Start de sessie om toegang te krijgen tot sessievariabelen
 session_start();
 
-// Controleer of de gebruiker is ingelogd
+// Contrroleer of de gebruiker is ingelogd
 if (!isset($_SESSION['email'])) {
     // Als de gebruiker niet is ingelogd, stuur ze dan terug naar de inlogpagina
     header("Location: ../login.html");
